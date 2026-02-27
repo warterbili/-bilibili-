@@ -1,0 +1,29 @@
+{
+    "access_key": "YOUR_ACCESS_KEY_HERE",
+    "buvid": "YOUR_BUVID_HERE",
+    "mid": "YOUR_MID_HERE",
+
+    "device": {
+        "build": "8830500",
+        "channel": "html5_search_google",
+        "mobi_app": "android",
+        "platform": "android",
+        "model": "MI 9",
+        "os_ver": "13",
+        "app_ver": "8.83.0"
+    },
+
+    "fingerprint": {
+        "fp_local": "YOUR_FP_LOCAL_HERE",
+        "fp_remote": "YOUR_FP_REMOTE_HERE",
+        "guestid": "YOUR_GUESTID_HERE",
+        "aurora_eid": "YOUR_AURORA_EID_HERE",
+        "locale_bin": "Cg4KAnpoEgRIYW5zGgJDThIICgJ6aBoCQ04iDUFzaWEvU2hhbmdoYWkqBiswODowMA"
+    },
+
+    "ticket": {
+        "value": "",
+        "created_at": 0,
+        "ttl": 0
+    }
+}

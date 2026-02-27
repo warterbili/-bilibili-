@@ -1,0 +1,214 @@
+No.     Time                           Source                Destination           Protocol Length Info
+    407 2026-02-18 16:33:13.886286Z    192.168.2.2           117.21.179.19         TLSv1.3  577    Client Hello (SNI=grpc.biliapi.net)
+
+Frame 407: Packet, 577 bytes on wire (4616 bits), 577 bytes captured (4616 bits)
+    Encapsulation type: Linux cooked-mode capture v2 (210)
+    Arrival Time: Feb 19, 2026 00:33:13.886286000 中国标准时间
+    UTC Arrival Time: Feb 18, 2026 16:33:13.886286000 UTC
+    Epoch Arrival Time: 1771432393.886286000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 377.000 microseconds]
+    [Time since reference or first frame: 3.316934000 seconds]
+    Frame Number: 407
+    Frame Length: 577 bytes (4616 bits)
+    Capture Length: 577 bytes (4616 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: sll:ethertype:ip:tcp:tls]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Reserved: 0000
+    Interface index: 30
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: XiaomiCommun_f2:d4:6b (60:ab:67:f2:d4:6b)
+    Unused: 0000
+Internet Protocol Version 4, Src: 192.168.2.2, Dst: 117.21.179.19
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+    Total Length: 557
+    Identification: 0x3b67 (15207)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x128f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.2.2
+    Destination Address: 117.21.179.19
+    [Stream index: 12]
+Transmission Control Protocol, Src Port: 42282, Dst Port: 443, Seq: 1, Ack: 1, Len: 517
+    Source Port: 42282
+    Destination Port: 443
+    [Stream index: 12]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 517]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 368309487
+    [Next Sequence Number: 518    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 788205118
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2738
+    [Calculated window size: 87616]
+    [Window size scaling factor: 32]
+    Checksum: 0xecf2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (517 bytes)
+Transport Layer Security
+
+No.     Time                           Source                Destination           Protocol Length Info
+    442 2026-02-18 16:33:13.929071Z    192.168.2.2           117.21.179.18         TLSv1.3  577    Client Hello (SNI=grpc.biliapi.net)
+
+Frame 442: Packet, 577 bytes on wire (4616 bits), 577 bytes captured (4616 bits)
+    Encapsulation type: Linux cooked-mode capture v2 (210)
+    Arrival Time: Feb 19, 2026 00:33:13.929071000 中国标准时间
+    UTC Arrival Time: Feb 18, 2026 16:33:13.929071000 UTC
+    Epoch Arrival Time: 1771432393.929071000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 677.000 microseconds]
+    [Time delta from previous displayed frame: 42.785000 milliseconds]
+    [Time since reference or first frame: 3.359719000 seconds]
+    Frame Number: 442
+    Frame Length: 577 bytes (4616 bits)
+    Capture Length: 577 bytes (4616 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: sll:ethertype:ip:tcp:tls]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Reserved: 0000
+    Interface index: 30
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: XiaomiCommun_f2:d4:6b (60:ab:67:f2:d4:6b)
+    Unused: 0000
+Internet Protocol Version 4, Src: 192.168.2.2, Dst: 117.21.179.18
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+    Total Length: 557
+    Identification: 0x81f6 (33270)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0xcc00 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.2.2
+    Destination Address: 117.21.179.18
+    [Stream index: 13]
+Transmission Control Protocol, Src Port: 41500, Dst Port: 443, Seq: 1, Ack: 1, Len: 517
+    Source Port: 41500
+    Destination Port: 443
+    [Stream index: 13]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 517]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 454867993
+    [Next Sequence Number: 518    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3647479038
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2738
+    [Calculated window size: 87616]
+    [Window size scaling factor: 32]
+    Checksum: 0xecf1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (517 bytes)
+Transport Layer Security
+
+No.     Time                           Source                Destination           Protocol Length Info
+   7686 2026-02-18 16:33:38.501187Z    192.168.2.2           116.207.163.66        TLSv1.3  577    Client Hello (SNI=grpc.biliapi.net)
+
+Frame 7686: Packet, 577 bytes on wire (4616 bits), 577 bytes captured (4616 bits)
+    Encapsulation type: Linux cooked-mode capture v2 (210)
+    Arrival Time: Feb 19, 2026 00:33:38.501187000 中国标准时间
+    UTC Arrival Time: Feb 18, 2026 16:33:38.501187000 UTC
+    Epoch Arrival Time: 1771432418.501187000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 325.000 microseconds]
+    [Time delta from previous displayed frame: 24.572116000 seconds]
+    [Time since reference or first frame: 27.931835000 seconds]
+    Frame Number: 7686
+    Frame Length: 577 bytes (4616 bits)
+    Capture Length: 577 bytes (4616 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: sll:ethertype:ip:tcp:tls]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Reserved: 0000
+    Interface index: 30
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: XiaomiCommun_f2:d4:6b (60:ab:67:f2:d4:6b)
+    Unused: 3c02
+Internet Protocol Version 4, Src: 192.168.2.2, Dst: 116.207.163.66
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+    Total Length: 557
+    Identification: 0xe7e6 (59366)
+    010. .... = Flags: 0x2, Don't fragment
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7626 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.2.2
+    Destination Address: 116.207.163.66
+    [Stream index: 20]
+Transmission Control Protocol, Src Port: 45472, Dst Port: 443, Seq: 1, Ack: 1, Len: 517
+    Source Port: 45472
+    Destination Port: 443
+    [Stream index: 115]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Incomplete, DATA (15)]
+    [TCP Segment Len: 517]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3545744804
+    [Next Sequence Number: 518    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3031517013
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2738
+    [Calculated window size: 87616]
+    [Window size scaling factor: 32]
+    Checksum: 0xdcdb [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (517 bytes)
+Transport Layer Security
