@@ -24,8 +24,11 @@
 
 ## Project Structure
 
-- MD files in the root directory are learning notes documenting the reverse engineering journey.
-- Key docs: `flashing_guide.md` (BL unlock), `miui_to_pixel.md` (ROM flashing)
+- `docs/` — 通用安卓逆向教程（按学习顺序编号：刷机→工具→反编译→系统知识→自动化）
+- `bilibili/` — Bilibili 逆向实战（docs/实战笔记、frida_scripts/Frida脚本、sign_verify/签名验证、auto_comment/自动评论、packet_capture/抓包数据、mitmproxy/中间人代理）
+- `bilibili/frida_scripts/` — 按功能分为 bypass/hook/trace/debug 四类
+- `android_automation/` — 安卓自动化（UIAutomator2）
+- `tools/` — 通用工具脚本（Tampermonkey userscripts）
 
 ## Environment
 
