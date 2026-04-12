@@ -2,3 +2,16 @@ __pycache__/
 *.pyc
 .claude/settings.local.json
 *.png
+
+# 敏感逆向脚本（token 提取/刷新）
+bilibili/auto_comment/bili_refresh.py
+bilibili/frida_scripts/trace/dump_tokens.js
+
+# 敏感凭证/配置
+bilibili/auto_comment/config.json
+
+# 含真实 access_key 的验证脚本
+bilibili/sign_verify/verify_sign.py
+bilibili/sign_verify/verify_sign2.py
+bilibili/sign_verify/verify_both.py
+bilibili/sign_verify/sign_from_reverse.py
